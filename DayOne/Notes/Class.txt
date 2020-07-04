@@ -1,0 +1,11 @@
+Class => 
+
+function =>
+
+constructor =>
+
+super() =>
+
+render() =>
+
+Life Cycle Methods => methods that gets called in different stages
