@@ -8,4 +8,6 @@ super() =>
 
 render() =>
 
-Life Cycle Methods => methods that gets called in different stages
+Life Cycle Methods => methods that gets called in different stages,
+
+ComponentDidMount
