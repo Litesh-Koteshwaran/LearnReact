@@ -1,0 +1,34 @@
+							React
+----------------------------------------------------------------------------------------------------------------
+React Concepts
+----------------------------------------------------------------------------------------------------------------
+1. Dont touch the DOM => you pass the state and react-lib does all the manupilation 
+			 to the DOM.
+2. Create Components => you create indiviual components which can be used cross platforms/projects
+			
+3. Unidirectional flow =>
+
+4. Only deals with the UI =>
+
+----------------------------------------------------------------------------------------------------------------
+State =>
+
+Components =>
+
+VirtualDOM => 
+
+Declarative =>
+
+props => 
+
+JSX => 
+
+----------------------------------------------------------------------------------------------------------------
+Things to learn 
+---------------
+1. Decide what is the components, how to break the components for different platforms.
+
+2. Decide where the state has to lives(components).
+
+3. Decide what changes are to be made when a state change, i.e what part of the VirtualDOM changes for
+   a change in state.
