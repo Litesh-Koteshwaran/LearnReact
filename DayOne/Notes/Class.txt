@@ -6,8 +6,25 @@ constructor =>
 
 super() =>
 
-render() =>
+render() => this renders the state when ever there is a change to it.
 
 Life Cycle Methods => methods that gets called in different stages,
 
-ComponentDidMount
+ComponentDidMount => it is a life cycle method which helps us to get data during the DOM is created.
+
+functional Components => they are meant to get some props and return some html, unlike 
+			 class components they dont have access to state and life cycle methods.
+
+this => is a special keyword which references the context in which it is being invoked.
+
+Arrow Function => "this" keyword in a simple function doesn't specify which context it refers to,
+		   so we make use of arrow function, when a constructor is created it looks for the 
+		   arrow fun and defines the this used as its own.		
+	syntax: funcName = (param) => { //statements}
+
+		   else we have to bind it in the constructor to define this as its own.
+	syntax: constructor{
+		//
+		//statements;
+		this.funcName = this.funcName.bind(this)}
+			
